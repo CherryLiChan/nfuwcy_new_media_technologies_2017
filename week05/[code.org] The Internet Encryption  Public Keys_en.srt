@@ -1,0 +1,344 @@
+1
+00:00:08,990 --> 00:00:14,150
+Hi my name is Mia Gil-Epner, I'm majoring
+in Computer Science at UC Berkeley and I work
+
+2
+00:00:14,150 --> 00:00:17,880
+for the Department of Defense, where I try
+to keep information safe.
+
+3
+00:00:18,480 --> 00:00:21,920
+The Internet is an open and public system.
+
+4
+00:00:21,920 --> 00:00:26,080
+We all send and receive information over 
+shared wires and connections.
+
+5
+00:00:26,560 --> 00:00:30,820
+But even though it's an open
+system, we still exchange a lot of private data.
+
+6
+00:00:30,820 --> 00:00:35,680
+Things like credit card numbers,
+bank information, passwords, and emails.
+
+7
+00:00:35,680 --> 00:00:40,680
+So how is all this private stuff kept secret?
+Data of any kind can be kept secret through
+
+8
+00:00:40,680 --> 00:00:45,820
+a process known as encryption, the scrambling
+or changing of the message to hide the original text.
+
+9
+00:00:46,340 --> 00:00:51,060
+Now decryption is the process of un-scrambling
+that message to make it readable.
+
+10
+00:00:51,620 --> 00:00:55,460
+This is a simple idea, and people have been doing
+it for centuries.
+
+11
+00:00:55,480 --> 00:00:59,580
+One of the first well known methods of encryption was Caesar's Cipher.
+
+12
+00:00:59,580 --> 00:01:02,360
+Named after Julius Caesar, a Roman general
+
+13
+00:01:02,380 --> 00:01:09,120
+who encrypted his military commands to make sure that if a message was intercepted by enemies, they wouldn't be able to read it.
+
+14
+00:01:09,120 --> 00:01:12,540
+Caesar Cipher is an algorithm that substitutes
+
+15
+00:01:12,540 --> 00:01:17,380
+each letter in the original message with a
+letter a certain number of steps down the alphabet.
+
+16
+00:01:17,380 --> 00:01:22,040
+If the number is something only
+the sender and receiver know, then it's called the key.
+
+17
+00:01:22,040 --> 00:01:26,880
+It allows the reader to unlock the
+secret message.
+
+18
+00:01:26,880 --> 00:01:35,860
+For example, if your original message is 'HELLO' then using the Caesar Cipher algorithm with a key of 5, the encrypted message
+
+19
+00:01:35,860 --> 00:01:38,600
+would be this...
+
+20
+00:01:38,600 --> 00:01:44,520
+To decrypt the message, the recipient 
+would simply use the key to reverse the process.
+
+21
+00:01:44,520 --> 00:01:50,179
+But there is a big problem
+with Caesar Cipher, anybody can easily break
+
+22
+00:01:50,179 --> 00:01:55,569
+or crack the encrypted message, by trying
+every possible key, and in the english alphabet
+
+23
+00:01:55,569 --> 00:02:02,380
+there are only 26 letters, which means you would only need to try at most 26 keys to decrypt the message.
+
+24
+00:02:02,380 --> 00:02:07,880
+Now trying 26 possible
+keys isn't very hard, it would take at most an hour to do.
+
+25
+00:02:07,880 --> 00:02:09,620
+So lets make it harder.
+
+26
+00:02:09,620 --> 00:02:12,780
+Instead of shifting every letter by the same amount,
+
+27
+00:02:12,780 --> 00:02:18,920
+let's shift each letter by a different amount.
+In this example, a ten digit key shows how many
+
+28
+00:02:18,920 --> 00:02:24,500
+positions each successive letter will be changed
+to encrypt a longer message.
+
+29
+00:02:25,500 --> 00:02:27,940
+Guessing this key would be really hard.
+
+30
+00:02:27,940 --> 00:02:33,520
+Using 10 digit encryption,
+there could be 10 billion possible key solutions.
+
+31
+00:02:34,160 --> 00:02:39,600
+Obviously that's more then any human could
+ever solve, it would take many centuries.
+
+32
+00:02:39,600 --> 00:02:45,160
+But an average computer today, would take
+just a few seconds to try all 10 billion possibilities.
+
+33
+00:02:46,020 --> 00:02:50,980
+So in a modern world, where the bad guys are
+armed with computers instead of pencils,
+
+34
+00:02:50,980 --> 00:02:56,480
+how can you encrypt messages so securely that
+they're too hard to crack?
+
+35
+00:02:56,480 --> 00:03:02,060
+Now "too hard" means that there are too many possibilities to compute in a reasonable amount of time.
+
+36
+00:03:02,060 --> 00:03:10,200
+Today's secure communications are encrypted using 256 bit keys. That means a bad guy's computer that
+
+37
+00:03:10,200 --> 00:03:17,980
+intercepts your message would need to try
+this many possible options... until they discover the key and crack the message.
+
+38
+00:03:19,640 --> 00:03:24,040
+Even if you had a 100,000 super computers and each of
+
+39
+00:03:24,040 --> 00:03:30,680
+them was able to try a million billion keys
+every second it would take trillions of trillions of trillions
+
+40
+00:03:30,680 --> 00:03:37,340
+of years to try every option, just to crack
+a single message protected with 256 bit encryption.
+
+41
+00:03:37,340 --> 00:03:42,740
+Of course computer chips get twice as fast
+and half the size every year or so.
+
+42
+00:03:42,740 --> 00:03:48,400
+If that pace of exponential progress continues, today's
+impossible problems will be solvable just
+
+43
+00:03:48,400 --> 00:03:54,020
+a few hundred years in the future and 256
+bits won't be enough to be safe.
+
+44
+00:03:54,020 --> 00:04:00,620
+In fact, we've already had to increase the standard key
+length to keep up with the speed of computers.
+
+45
+00:04:00,620 --> 00:04:05,540
+The good news is, using a longer key doesn't
+make encrypting messages much harder, but it
+
+46
+00:04:05,540 --> 00:04:10,640
+exponentially increases the number of guesses
+that it would take to crack a cipher.
+
+47
+00:04:11,340 --> 00:04:16,779
+When the sender and receiver share the same key
+to scramble and unscramble a message it's called
+
+48
+00:04:16,779 --> 00:04:18,799
+Symmetric Encryption.
+
+49
+00:04:18,800 --> 00:04:24,199
+With Symmetric Encryption,
+like Caesar Cipher, the secret key has to be
+
+50
+00:04:24,199 --> 00:04:29,710
+agreed on ahead of time by two people in private.
+So that's great for people, but the internet
+
+51
+00:04:29,710 --> 00:04:36,900
+is open and public so it's impossible for two computers to "meet" in private to agree on a secret key.
+
+52
+00:04:36,900 --> 00:04:41,599
+Instead, computers use Asymmetric keys, a public key that can be
+
+53
+00:04:41,599 --> 00:04:49,020
+exchanged with anybody and a private key that is
+not shared. The Public Key is used to encrypt
+
+54
+00:04:49,020 --> 00:04:55,800
+data and anybody can use it to create a secret
+message, but the secret can only be decrypted
+
+55
+00:04:55,800 --> 00:04:58,540
+by a computer with access to the private key.
+
+56
+00:04:58,540 --> 00:05:02,800
+How this works is with some math that 
+we won't get into right now.
+
+57
+00:05:02,800 --> 00:05:06,120
+Think of it this way,
+imagine that you have a personal mailbox,
+
+58
+00:05:06,129 --> 00:05:11,160
+where anybody can deposit mail but they need
+a key to do it. Now you can make many copies
+
+59
+00:05:11,160 --> 00:05:16,500
+of the deposit key and send one to your friend
+or even just make it publicly available.
+
+60
+00:05:16,500 --> 00:05:22,140
+Your friend or even a stranger can use the public
+key to access your deposit slot and drop a message in.
+
+61
+00:05:22,140 --> 00:05:27,400
+But only you can open the mailbox
+with your private key, to access all of the
+
+62
+00:05:27,400 --> 00:05:31,539
+secret messages you've received. And you can
+send a secure message back to your friend
+
+63
+00:05:31,539 --> 00:05:37,620
+by using the public deposit key to their mailbox.
+This way people can exchange secure messages
+
+64
+00:05:37,620 --> 00:05:40,900
+without ever needing to agree on a private
+key.
+
+65
+00:05:40,900 --> 00:05:46,520
+Public Key cryptography is the foundation of all secure messaging on the open internet,
+
+66
+00:05:46,520 --> 00:05:49,140
+including the Security Protocols known as
+
+67
+00:05:49,140 --> 00:05:54,400
+SSL and TLS, which protect us when we are
+browsing the web.
+
+68
+00:05:54,400 --> 00:06:01,960
+Your computer uses this today, anytime you see the little lock or the letters "https" in your browser's address bar.
+
+69
+00:06:01,960 --> 00:06:07,400
+This means your computer is using public
+key encryption to exchange data securely with
+
+70
+00:06:07,409 --> 00:06:13,400
+the website you're on. As more and more people
+get on the internet more and more private
+
+71
+00:06:13,400 --> 00:06:18,740
+data will be transmitted, and the need to
+secure that data will be even more important.
+
+72
+00:06:18,740 --> 00:06:24,059
+And as computers become faster and faster
+we will have to develop new ways to make encryption
+
+73
+00:06:24,059 --> 00:00:00,000
+too hard for computers to break. This is what
+I do with my work and it's always changing.
+

@@ -1,0 +1,291 @@
+1
+00:00:07,720 --> 00:00:13,040
+Hi, my name is Jenny Martin and I'm the
+director of cybersecurity investigations at Symantec.
+
+2
+00:00:13,480 --> 00:00:17,200
+Today cybercrime causes huge problems for society
+
+3
+00:00:17,200 --> 00:00:21,740
+personally, financially, and even
+in matters of national security.
+
+4
+00:00:22,160 --> 00:00:26,660
+Just in the last few years, hundreds of millions of credit card numbers have been stolen,
+
+5
+00:00:26,660 --> 00:00:31,460
+tens of millions of Social Security
+numbers and healthcare records were compromised,
+
+6
+00:00:31,460 --> 00:00:34,680
+even nuclear centrifuges
+that have been hacked,
+
+7
+00:00:34,680 --> 00:00:37,400
+and unmanned aerial drones have been hijacked.
+
+8
+00:00:37,400 --> 00:00:40,090
+This is all done by exploiting vulnerabilities
+
+9
+00:00:40,090 --> 00:00:45,059
+in hardware and software or more often
+by taking advantage of unintentional
+
+10
+00:00:45,060 --> 00:00:47,920
+decisions made by the people using the software.
+
+11
+00:00:51,860 --> 00:00:56,440
+The people committing these cyber crimes 
+don't fit a single profile or motivation.
+
+12
+00:00:56,440 --> 00:01:01,920
+It could be anyone from an international terrorist to a teenager competing for bragging rights.
+
+13
+00:01:01,920 --> 00:01:08,620
+Today the largest countries not only have a regular army
+but also have a well armed cyber army.
+
+14
+00:01:08,620 --> 00:01:12,500
+In fact, the next World War may not be
+fought with traditional weapons, but with
+
+15
+00:01:12,500 --> 00:01:17,210
+computers used to shut down national
+water supplies, energy grids, and
+
+16
+00:01:17,210 --> 00:01:18,920
+transportation systems.
+
+17
+00:01:20,400 --> 00:01:24,540
+Hi my name is Parisa and
+I'm Google's Security Princess.
+
+18
+00:01:24,540 --> 00:01:29,540
+I've worked on a lot of different Google products
+in a lot of different ways to try and
+
+19
+00:01:29,540 --> 00:01:32,880
+make our software as secure as possible.
+
+20
+00:01:33,600 --> 00:01:36,690
+Now let's take a look at how cybercrime
+works under the hood.
+
+21
+00:01:36,690 --> 00:01:42,020
+We'll learn about software viruses,
+denial-of-service attacks, and phishing scams.
+
+22
+00:01:42,020 --> 00:01:46,170
+In biology and life, a virus is an
+organism that is spread by coughing,
+
+23
+00:01:46,170 --> 00:01:48,700
+sneezing, or physical contact.
+
+24
+00:01:49,120 --> 00:01:53,360
+Viruses work by infecting cells,
+injecting their genetic material, and
+
+25
+00:01:53,360 --> 00:01:58,400
+using those cells to replicate. They can make people really sick and then spread to other people.
+
+26
+00:01:59,140 --> 00:02:04,290
+A computer virus works bit similarly. A
+virus is an executable program that gets
+
+27
+00:02:04,290 --> 00:02:09,220
+installed, usually unintentionally, 
+and harms the user and their computer.
+
+28
+00:02:09,620 --> 00:02:14,073
+It's also possible for a virus to spread itself to other
+computers.
+
+29
+00:02:14,580 --> 00:02:17,220
+Now how does a virus get on your 
+computer in the first place?
+
+30
+00:02:17,220 --> 00:02:20,700
+There are a couple ways an attacker can 
+infect someone's computer.
+
+31
+00:02:20,700 --> 00:02:24,730
+They might lure a victim into
+installing a program with deception about the
+
+32
+00:02:24,730 --> 00:02:29,200
+program's purpose, so for example a lot
+of viruses are disguised as security updates.
+
+33
+00:02:30,740 --> 00:02:35,920
+It's also possible that the software on your computer has a vulnerability, so an attacker can install itself
+
+34
+00:02:35,920 --> 00:02:38,500
+without even needing explicit permission.
+
+35
+00:02:39,330 --> 00:02:43,580
+Once a virus is on your computer it can
+steal or delete any of your files,
+
+36
+00:02:43,580 --> 00:02:48,560
+control other programs, or even allow
+someone else to remotely control your computer.
+
+37
+00:02:51,420 --> 00:02:55,820
+Using computer viruses, hackers can take
+over millions of computers world wide
+
+38
+00:02:55,820 --> 00:03:01,280
+and then use them as a digital army, otherwise known as a botnet, to attack and take down websites.
+
+39
+00:03:02,740 --> 00:03:06,680
+This kind of attack is called a
+distributed denial of service.
+
+40
+00:03:07,260 --> 00:03:11,280
+A denial of service is when hackers
+overwhelm a website with too many requests.
+
+41
+00:03:11,280 --> 00:03:16,300
+We call it a distributed denial-of-service when the attack comes from many computers all at once.
+
+42
+00:03:18,000 --> 00:03:21,940
+Most websites are ready to respond to
+millions of requests a day, but if you
+
+43
+00:03:21,950 --> 00:03:25,430
+hit them with billions or trillions of requests, 
+coming from different places,
+
+44
+00:03:25,430 --> 00:03:28,600
+the computers are overloaded and stop
+responding.
+
+45
+00:03:30,180 --> 00:03:35,960
+Another trick used by cybercriminals is to send large amounts of spam email in an attempt to trick people
+
+46
+00:03:35,970 --> 00:03:39,110
+into sharing sensitive personal information.
+
+47
+00:03:39,110 --> 00:03:44,920
+This is called a phishing scam. 
+A phishing scam is when you get what seems like a
+
+48
+00:03:44,920 --> 00:03:49,590
+trustworthy email asking you to log
+into your account, but clicking the email
+
+49
+00:03:49,590 --> 00:03:51,560
+takes you to a fake website.
+
+50
+00:03:51,560 --> 00:03:55,599
+If you log in anyway, you've been
+tricked into giving your password away.
+
+51
+00:03:55,599 --> 00:04:00,390
+Hackers can then use your login
+credentials to access your real accounts
+
+52
+00:04:00,390 --> 00:04:05,520
+to steal information or maybe even to
+steal your money. Fortunately there are
+
+53
+00:04:05,520 --> 00:04:09,920
+many companies, laws, and government
+organizations working to make the
+
+54
+00:04:09,920 --> 00:04:13,040
+internet safer, but these 
+efforts are not enough.
+
+55
+00:04:14,750 --> 00:04:18,440
+You may think when a computer system
+gets hacked the problem was the security
+
+56
+00:04:18,450 --> 00:04:22,860
+design or the software. Ninety percent
+of the time the system gets hacked
+
+57
+00:04:22,860 --> 00:04:28,440
+however, it's not because of the security bug, but because of a simple mistake made by a human.
+
+58
+00:04:31,040 --> 00:04:34,460
+It turns out there are steps we
+can all take to protect ourselves.
+
+59
+00:04:34,460 --> 00:04:39,040
+Often your actions not only impact the
+security of your own data and computer, but the
+
+60
+00:04:39,040 --> 00:04:41,550
+security of everyone at your school,
+
+61
+00:04:41,550 --> 00:04:46,510
+workplace, and home. With billions or
+trillions of dollars at stake,
+
+62
+00:04:46,510 --> 00:00:00,000
+cybercriminals get smarter each year and
+we all need to keep up.
+

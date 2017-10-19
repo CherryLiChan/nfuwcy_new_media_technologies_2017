@@ -1,0 +1,300 @@
+1
+00:00:05,180 --> 00:00:11,900
+Hi, my name is John. I lead the search and
+machine learning teams at Google.
+
+2
+00:00:11,900 --> 00:00:15,960
+I think it's amazingly inspiring that people all
+over the world
+
+3
+00:00:15,960 --> 00:00:19,710
+turn to search engines to ask
+trivial questions and incredibly
+
+4
+00:00:19,710 --> 00:00:24,520
+important questions, so it's a huge responsibility to give them the best answers that we can.
+
+5
+00:00:26,200 --> 00:00:30,940
+Hi, my name is
+Akshaya and I work on the Bing search team.
+
+6
+00:00:30,940 --> 00:00:34,200
+There are many times where we'll
+start looking into artificial
+
+7
+00:00:34,200 --> 00:00:38,280
+intelligence and machine learning, but we
+have to address how are the users going
+
+8
+00:00:38,280 --> 00:00:42,820
+to use this because end of the day we
+want to make an impact to society.
+
+9
+00:00:43,520 --> 00:00:48,500
+Let's ask a simple question.
+"How long does it take to travel to Mars?"
+
+10
+00:00:48,500 --> 00:00:54,920
+Where did these results come from and 
+why was this listed before the other one?
+
+11
+00:00:54,920 --> 00:01:00,180
+Okay, let's dive in and see how the
+search engine turned your request into a result.
+
+12
+00:01:00,180 --> 00:01:03,750
+The first thing you need to know
+ is when you do a search, the search
+
+13
+00:01:03,750 --> 00:01:08,240
+engine isn't actually going out to the 
+World Wide Web to run your search in real time.
+
+14
+00:01:08,240 --> 00:01:11,040
+That's because there's
+ over a billion websites on the internet
+
+15
+00:01:11,040 --> 00:01:15,450
+and hundreds more being created every
+single minute, so if the search engine
+
+16
+00:01:15,450 --> 00:01:19,780
+had to look through every single site to
+find the one you wanted, it would just take forever.
+
+17
+00:01:19,780 --> 00:01:23,490
+So to make your search faster,
+search engines are constantly scanning
+
+18
+00:01:23,490 --> 00:01:28,400
+the web in advance to record the
+information that might help with your search later.
+
+19
+00:01:28,400 --> 00:01:32,220
+That way when you search
+about "travel to Mars" the search engine
+
+20
+00:01:32,220 --> 00:01:35,280
+already has what it needs to give you an
+answer in real time.
+
+21
+00:01:36,340 --> 00:01:37,880
+Here's how it works:
+
+22
+00:01:37,880 --> 00:01:42,340
+The internet is a web of pages connected
+to each other by hyperlinks.
+
+23
+00:01:42,340 --> 00:01:46,500
+Search engines are constantly running a program
+called "spider" that crawls through
+
+24
+00:01:46,500 --> 00:01:49,660
+these web pages to collect information
+about them.
+
+25
+00:01:49,660 --> 00:01:57,120
+Each time it finds a hyperlink, it follows it until it has
+visited every page it can find on the entire internet.
+
+26
+00:01:57,120 --> 00:02:00,600
+For each page of the
+spider visits, it records any information
+
+27
+00:02:00,600 --> 00:02:06,680
+it might need for a search by adding it to
+a special database called a search index.
+
+28
+00:02:07,300 --> 00:02:10,900
+Now, let's go back to that search from
+earlier and see if we can figure out how
+
+29
+00:02:10,900 --> 00:02:13,520
+the search engine came up with the results.
+
+30
+00:02:13,520 --> 00:02:18,920
+When you ask "how long does it take to travel to Mars", the search engine looks each of those words in the
+
+31
+00:02:18,920 --> 00:02:23,840
+search index to immediately get a list of all
+the pages on the internet containing
+
+32
+00:02:23,840 --> 00:02:28,280
+those words, but just looking for these
+search terms could return millions of
+
+33
+00:02:28,280 --> 00:02:33,360
+pages so the search engine needs to be
+able to determine the best matches to show you first.
+
+34
+00:02:33,360 --> 00:02:37,880
+This is where it gets tricky because the search engine may need to guess what you're looking for.
+
+35
+00:02:37,880 --> 00:02:44,280
+Each search engine uses its own algorithm to rank the pages based on what it thinks you want.
+
+36
+00:02:44,840 --> 00:02:50,480
+The search engine's ranking algorithm might check if
+your search term shows up in the page title,
+
+37
+00:02:50,480 --> 00:02:55,790
+it might check if all of the words
+show up next to each other, or any number
+
+38
+00:02:55,790 --> 00:03:01,800
+of other calculations that helped it better determine which pages you'll want to see and which you won't.
+
+39
+00:03:02,660 --> 00:03:05,440
+Google invented
+the most famous algorithm for choosing
+
+40
+00:03:05,440 --> 00:03:11,360
+the most relevant results for a search, by taking into account how many other web pages link to a given page.
+
+41
+00:03:11,360 --> 00:03:14,260
+The idea is that if lots of websites think that a
+
+42
+00:03:14,260 --> 00:03:17,820
+web page is interesting, then it's
+probably the one you're looking for.
+
+43
+00:03:17,820 --> 00:03:23,000
+This algorithm was called "Page Rank", not because it ranks web pages, but because
+
+44
+00:03:23,000 --> 00:03:27,220
+it was named after its inventor, Larry
+Page, who is one of the founders of Google.
+
+45
+00:03:27,620 --> 00:03:32,020
+Because the website often makes money
+when you visit it, spammers are constantly
+
+46
+00:03:32,020 --> 00:03:37,920
+trying to find ways to game the search algorithm so that their pages are listed higher in the results.
+
+47
+00:03:37,920 --> 00:03:40,840
+Search engines
+regularly update their algorithms to
+
+48
+00:03:40,840 --> 00:03:44,480
+prevent fake or untrustworthy sites from
+reaching the top.
+
+49
+00:03:44,480 --> 00:03:50,120
+Ultimately, it's up to you to keep an eye out for these
+pages that are untrustworthy by looking
+
+50
+00:03:50,120 --> 00:03:53,340
+at the web address and making sure it's
+a reliable source.
+
+51
+00:03:53,340 --> 00:04:00,560
+Search programs are always evolving to 
+improve the algorithms so the return better results, faster results then their competitors.
+
+52
+00:04:00,880 --> 00:04:06,560
+Today's search engines even use 
+information that you haven't explicitly provided to help you narrow down your search.
+
+53
+00:04:06,560 --> 00:04:11,380
+So, for example, if you did a
+search for dog parks, many search engines
+
+54
+00:04:11,380 --> 00:04:15,980
+would give you results for all the dogs parks nearby even though you didn't type in your location.
+
+55
+00:04:17,260 --> 00:04:24,320
+Modern search engines also understand
+more than just the words on a page, but what they actually mean in order to find
+
+56
+00:04:24,320 --> 00:04:27,040
+the best one that matches what you're
+looking for.
+
+57
+00:04:27,040 --> 00:04:33,180
+For example, if you search for a "fast pitcher" it will know you're looking for an athlete, but if you search
+
+58
+00:04:33,180 --> 00:04:37,200
+for "large pitcher" it will find you options for you kitchen.
+
+59
+00:04:38,880 --> 00:04:43,380
+To understand the words better, we use something called machine learning, a type of artificial intelligence.
+
+60
+00:04:43,380 --> 00:04:47,340
+It enables search algorithms
+to search not just individual letters or
+
+61
+00:04:47,340 --> 00:04:51,800
+words in the page, but understand the
+underlying meaning of the words.
+
+62
+00:04:53,540 --> 00:04:59,039
+The internet is growing exponentially, but if the
+teams that design search engines do our
+
+63
+00:04:59,040 --> 00:00:00,000
+jobs right, the information you want should
+always be just a few keystrokes away.
+
